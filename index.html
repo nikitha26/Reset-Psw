@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emortech pvt ltd</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<script>
+    // $(document).ready(function(){
+    //     // $('#password').change(function(){
+    //     //     var psw = document.getElementById("password").value;
+            
+    //     //     $('#resetpsw').change(function(){
+    //     //         var psw = document.getElementById("password").value;     
+    //     //     })
+    //     // })
+    // })
+</script>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Join a Race</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Leaderboard</a>
+            </li>
+            <li class="nav-item">
+                <a href=""><button class="btn btn-default login">Login</button></a>
+            </li>    
+          </ul>
+        </div>  
+    </nav>
+
+    
+    <div class="container h-100 mb-5">
+        <div class="row h-100 justify-content-center align-items-center mt-5">
+            <div class="col-10 col-md-8 col-lg-6 mt-5">
+                <!-- Form -->
+                <form action="">
+                    <h1>Reset Password</h1>
+                    <div class="form-group">
+                        <label for="password">NEW PASSWORD</label>
+                        <input type="password" class="form-control username" id="password" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">RE-ENTER NEW PASSWORD</label>
+                        <input type="password" class="form-control password" id="resetpsw" name="password">
+                        <small id="error"></small>
+                    </div><br>
+                    <button type="button" class="btn btn-default btn-block btn-customized" onclick="Resetpsw()">RESET PASSWORD</button>
+                </form>
+                <!-- Form end -->
+            </div>
+        </div>
+    </div><br><br>
+
+    <div class="footer mt-5">
+        <ul class="ml-5 pl-5">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Tutorial</a></li>
+            <li><a href="">Terms Of Services</a></li>
+
+        </ul>
+    </div>
+</body>
+</html>

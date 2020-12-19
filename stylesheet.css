@@ -1,0 +1,39 @@
+ .navbar{
+    background-color: rgb(18, 119, 212);
+}
+ul li a{
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+a { 
+    display: block;
+    padding: 10px 50px !important;
+}
+.login{
+    background-color: white !important;
+    color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-weight: bolder !important;
+}
+.btn-customized{
+    background-color: black !important;
+    color: white !important;
+}
+.footer{
+    background-color: rgb(33, 112, 214);
+    color: white;
+    height: 143px;
+}
+.footer ul li {
+    list-style:none;
+    float: left;
+}
+.footer ul li a{
+    color: white;
+}
