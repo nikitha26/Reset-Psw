@@ -5,7 +5,9 @@ ul li a{
     color: rgb(22, 21, 21);
     font-size: 20px;
     font-weight: bolder;
-
+}
+ul li a:hover{
+    color:white;
 }
 a { 
     display: block;
@@ -20,6 +22,9 @@ a {
     padding-right: 10px;
     border-radius: 10px;
     font-weight: bolder !important;
+}
+.icon{
+   color:white !important;
 }
 .btn-customized{
     background-color: black !important;
@@ -36,4 +41,35 @@ a {
 }
 .footer ul li a{
     color: white;
+}
+#error1{
+    color:red;
+}
+#error2{
+    color:red;
+}
+#error1 #valid{
+    color:rgb(15, 250, 15);
+    float:right
+}
+#error2 #validpsw{
+    color:rgb(15, 250, 15);
+    float:right
+}
+.brand{
+    background-color: black;
+    color:white;
+    font-weight:900;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left:15px;
+    padding-top:5px ;
+    padding-right:15px ;
+    padding-bottom:5px ;
+    border-radius:1px 10px 10px 1px;
+}
+.subheading{
+    color:black;
+    font-family: sans-serif;
+    font-size: 10px;
 }
